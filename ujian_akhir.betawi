@@ -1,0 +1,27 @@
+bikin tambah(a, b) {
+    balikin a + b
+}
+
+bikin main() {
+    cetak("=== Ujian Akhir BetawiScript ===")
+    
+    angka_awal = 1
+    selagi (angka_awal <= 3) {
+        cetak("Iterasi ke-")
+        cetak(angka_awal)
+        angka_awal = angka_awal + 1
+    }
+
+    tes_optimasi = 10 * 5 + 2
+    kalo (tes_optimasi > 50) {
+        cetak("Optimasi Matematika Berhasil!")
+    } laennya {
+        cetak("Gagal Optimasi")
+    }
+
+    hasil = tambah(10, 20)
+    cetak("Hasil Tambah:")
+    cetak(hasil)
+}
+
+main()

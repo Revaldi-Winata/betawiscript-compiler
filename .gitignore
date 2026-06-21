@@ -1,0 +1,8 @@
+AGENTS.md
+__pycache__/
+*.pyc
+build/
+*.spec
+trace_output.txt
+docs/project_setup.md
+docs/compiler_phases.md

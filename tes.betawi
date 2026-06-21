@@ -1,0 +1,15 @@
+bikin faktorial(n) {
+    kalo (n <= 1) {
+        balikin 1
+    }
+    balikin n * faktorial(n - 1)
+}
+
+cetak("Mulai uji coba BetawiScript...")
+hasil = faktorial(5)
+cetak("Faktorial 5 adalah:")
+cetak(hasil)
+
+buat (i di rentang(3)) {
+    cetak(i)
+}
